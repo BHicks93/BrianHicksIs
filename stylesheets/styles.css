@@ -1,4 +1,7 @@
-@font-face {
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900|Hind);
+
+/*@font-face {
     font-family: 'texgyreadventorbold';
     src: url('texgyreadventor-bold-webfont.eot');
     src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -7,12 +10,13 @@
          url('texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 
 body {
   padding:50px;
-  font-family: texgyreadventorbold, Helvetica, Arial, sans-serif;
+  background: #FFF;
+  font-family: 'Hind', sans-serif;
   font-size:14px
   color:#777;
   font-weight:300;
@@ -32,7 +36,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:70px;
+ 
+  font-size: 85px;
+  color:#000;
+  /*background: -webkit-linear-gradient(#FF80D2, #00CAC0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }
 
 h2 {
@@ -42,7 +51,10 @@ h2 {
 h3, h4, h5, h6 {
   color:#494949;
 }
-
+p {
+ font-family: 'Rokkitt';
+ font-size: 18px;
+	}
 a {
   color:#39c;
   font-weight:400;
@@ -59,6 +71,8 @@ a small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  padding:1px;
+  background-color:#000;
 }
 
 blockquote {
@@ -110,7 +124,48 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  padding-top:60px;
 }
+
+/*Tumblr testing*/
+.tumblr_posts {	
+
+text-indent: -40px;
+}
+.tumblr_post {		
+color:#000; 
+}
+.tumblr_title {	
+ 
+}
+.tumblr_body img {	
+
+}
+.read_more_container {
+	
+}
+.read_more_container a {
+	
+}
+
+#top, #bottom, #left, #right {
+	background: #000;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+		
 
 header ul {
   list-style:none;
@@ -156,7 +211,7 @@ strong {
 
 header ul li + li {
   width:88px;
-  border-left:1px solid #fff;
+  border-left:0px solid #fff;
 }
 
 header ul li + li + li {
@@ -200,6 +255,7 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+    background-color:#FFF;
   }
   
   header, section, footer {
@@ -209,7 +265,8 @@ footer {
   }
   
   header {
-    padding-right:320px;
+  padding:0;
+    max-width: 300px;
   }
   
   section {
@@ -264,4 +321,16 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+		@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	#top, #bottom, #left, #right { display: none; }
 }

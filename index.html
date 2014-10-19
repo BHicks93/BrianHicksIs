@@ -1,3 +1,5 @@
+<!--Want check boxes to toggle on and off content like this http://htmloutput.risd.gd/book/-->
+
 <!doctype html>
 <html>
   <head>
@@ -14,51 +16,71 @@
     <!--[if lte IE 6]>
 	<style>#top, #bottom, #left, #right { display: none; }</style>
 <![endif]-->
+<script>
+function togglecheckboxes(master,cn){
+	var cbarray = document.getElementsByClassName(cn);
+	for(var i = 0; i < cbarray.length; i++) {
+		var cb = document.getElementById(cbarray[i].id);
+		cb.checked = master.checked;
+			}
+	}
+	
+	window.addEventListener("scroll", yScroll);
+</script>
   </head>
   <body>
   
+		<!--<div id="pagetop"><h1>Hicks</h1>
+    	</div>-->
+    
     <div class="wrapper">
       <header>
-        <h1>Hicks</h1>
+        <span style="letter-spacing: 1px; text-transform: uppercase; margin-right: 1em;">brian.hicks</span>
 		<p>Studying graphic design at the rhode island school of design. 
 		Creative problem solving at <a href="http://synergy.rocks/">synergy.thinking</a> 
 		Representing the undergrad <a href="http://risd.gd/">graphic design</a> department at risd.
 		Managing the risd gym. 
 		Advocating health and wellness on the risd campus within student alliance. 
 		</p>
+    	
+    <p>
+    			<input type="checkbox" id="cb1_1" class="cbgroup1">Posters</br>
+    			<input type="checkbox" id="cb1_2" class="cbgroup1">Typography</br>
+    			<input type="checkbox" id="cb1_3" class="cbgroup1">Identity</br>
+    			<input type="checkbox" id="cb1_4" class="cbgroup1">Motion</br>
+    			<input type="checkbox" id="cbgroup1_master" onchange="togglecheckboxes(this,'cbgroup1')">See All
+    		</p>
       </header>
       
       <section>
 
-<!--<p>latest projects:</br></br> "cheap" an installation in response to the movie fast, cheap, and out of control directed by errol morris. </p>
-<iframe src="//player.vimeo.com/video/108082577" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></br>
-</br></br><p><a href="http://synergy.rocks/">synergy.rocks</a> a website that develops random new start-up ideas. created as a satire on contemporary start-up culture. random combinations were pitched live as part of a performance piece.</p>
-<iframe src="http://synergy.rocks/" scrolling="yes" width="500" height="475" frameborder="2px"></iframe>-->
+    <!-- THIS IS WHERE I WANT CONTENT TO APPEAR WHEN CHECKBOX IS TOGGLED ON-->
+    <div id="comingSoon">COMING SOON</div>
+        </section>
 
-    	<div class="scroll">
- 		<script type="text/javascript" src="http://brianhicks.tumblr.com/js"></script></div>
-      </section>
-     	
-     	<!--border-->
-     	<div id="left"></div>
-	<div id="right"></div>
-	<div id="top"></div>
-	<div id="bottom"></div>
 
      	 <footer>
-        	<p><small>fork me on GitHub <a href="https://github.com/BHicks93">bhicks93.</a>
-        	theme based off of <a href="https://github.com/orderedlist">orderedlist.</a>
-        	resume available upon request.</small></p>
+     	 
+        	<p><div id="GitHub">fork me on GitHub <a href="https://github.com/BHicks93">bhicks93.</a></div></p>
+      <div id="footer">  <ul id="menu-main" class="menu">
+			<li id="menu-item-1" class="menu-item"><a href="mailto:bhicks@risd.edu">Contact</a></li>
+			<li id="menu-item-2" class="menu-item"><a href="http://facebook.com/brian.hicks.560">Facebook</a></li>
+			<li id="menu-item-3" class="menu-item"><a href="http://brianhicks.tumblr.com/">Tumblr</a></li>
+			<li id="menu-item-4" class="menu-item"><a href="http://www.youtube.com/watch?v=41qC3w3UUkU">TuPac</a></li>
+		</ul>
+		</div>
       	</footer>
     </div>
     
     <!--JavaScript-->
-    <script>
-		$('.jscroll').jscroll();
+    <script src="javascripts/scale.fix.js">
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script src="//unslider.com/unslider.min.js"></script>
+	
 	</script>
 
-	<script src="javascripts/scale.fix.js">
-	<script src="js/lib/jquery.min.js"></script>
+	
 
     
   </body>

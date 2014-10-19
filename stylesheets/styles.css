@@ -217,6 +217,10 @@ section {
 	-webkit-text-stroke-width: 3px;
    	-webkit-text-stroke-color: magenta;
 }
+#comingSoon:hover{
+text-decoration:none;
+color:magenta;
+}
 
 small {
   font-size:11px;

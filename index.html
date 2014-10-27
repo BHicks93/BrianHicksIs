@@ -31,6 +31,8 @@ function togglecheckboxes(master,cn){
 </script>
 
   </head>
+  <div class="clock"><SCRIPT SRC="file://localhost/Users/students/Downloads/BrianHicksIs-gh-pages/javascripts/clock.js"></SCRIPT></div>
+
   <body>
 		<!--<div id="pagetop"><h1>Hicks</h1>
     	</div>-->
@@ -45,31 +47,34 @@ function togglecheckboxes(master,cn){
 		Advocating health and wellness on the risd campus within student alliance. 
 		</p>
     	
-    		<p>
-    			<input type="checkbox" id="cb1_1" class="cbgroup1">Posters</br>
-    			<input type="checkbox" id="cb1_2" class="cbgroup1">Typography</br>
-    			<input type="checkbox" id="cb1_3" class="cbgroup1">Identity</br>
-    			<input type="checkbox" id="cb1_4" class="cbgroup1">Motion</br>
-    			<input type="checkbox" id="cbgroup1_master" onchange="togglecheckboxes(this,'cbgroup1')">See All
-    		</p>
+    		<div>
+    			<input type="checkbox" id="cb1_1" class="cbgroup1"><label for="cb1_1">Posters</label></br>
+    			<input type="checkbox" id="cb1_2" class="cbgroup1"><label for="cb1_2">Typography</label></br>
+    			<input type="checkbox" id="cb1_3" class="cbgroup1"><label for="cb1_3">Identity</label></br>
+    			<input type="checkbox" id="cb1_4" class="cbgroup1"><label for="cb1_4">Motion</label></br>
+    			<input type="checkbox" id="cb1_5" class="cbgroup1"><label for="cb1_5">Writing</label></br>
+    			<input type="checkbox" id="cbgroup1_master" class="cbgroup1" onchange="togglecheckboxes(this,'cbgroup1')"><label for="cbgroup1_master">See All</label>
+    		</div>
 	</header>
-    
+
       
 	<section>
-   		 <h1>GRAPHIC DESIGN AND STUFF. GRAPHIC DESIGN AND STUFF. GRAPHIC DESIGN AND STUFF. GRAPHIC DESIGN AND STUFF. GRAPHIC DESIGN AND STUFF. GRAPHIC DESIGN AND STUFF.<h1>
-    	<div id="comingSoon">COMING SOON</div>
+			
+   		 <div id="content"><h1>GRAPHIC DESIGN AND STUFF...<h1>
+   		 					</div>
+   		 <div id="comingSoon">COMING SOON</div>
+    	
     	
 	</section>
-
-
+	
 	<footer>	 
-        	<div id="GitHub">fork me on GitHub <a href="https://github.com/BHicks93">bhicks93.</a></div>
       <div id="footer">  <ul id="menu-main" class="menu">
 			<li id="menu-item-1" class="menu-item"><a href="mailto:bhicks@risd.edu" title="Holla">Contact</a></li>
 			<li id="menu-item-2" class="menu-item"><a href="http://facebook.com/brian.hicks.560" title="Poke Me">Facebook</a></li>
 			<li id="menu-item-3" class="menu-item"><a href="http://instagram.com/bhicks93" title="Filters on Filters">Instagram</a></li>
 			<li id="menu-item-4" class="menu-item"><a href="http://brianhicks.tumblr.com/" title="Cats & Babes">Tumblr</a></li>
-			<li id="menu-item-5" class="menu-item"><a href="http://www.youtube.com/watch?v=41qC3w3UUkU" title="Get Money">TuPac</a></li>
+			<li id="menu-item-5" class="menu-item"><a href="https://github.com/BHicks93" title="Fork Me">GitHub</a></li>
+			<li id="menu-item-6" class="menu-item"><a href="http://www.youtube.com/watch?v=41qC3w3UUkU" title="Get Money">TuPac</a></li>
 		</ul>
 		</div>
       	</footer>

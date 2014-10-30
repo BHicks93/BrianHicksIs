@@ -198,23 +198,6 @@ section {
   padding-top:75px;
 }
 
-#content{}
-#content2{display:none;}
-
-#comingSoon{
-	position:absolute;
-	top:10px;
-	left:3%;
-	font-size:300px;
-	color:transparent;
-	-webkit-text-stroke-width: 3px;
-   	-webkit-text-stroke-color: magenta;
-}
-#comingSoon:hover{
-text-decoration:none;
-color:magenta;
-}
-
 small {
   font-size:11px;
 }
@@ -226,13 +209,19 @@ hr {
   margin:0 0 20px;
 }
 
-div.clock{
-padding:5px;
-position:fixed;
-top:0px;
-right:0px
+div{
+	float:left;
+	}
 
-}
+#content { 
+	background:#FFF;
+	z-index:1;
+		
+	}
+
+#content:hover { display:none;}
+
+#content2{z-index:-1;}
 
 footer {
   max-width:270px;

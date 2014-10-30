@@ -1,6 +1,7 @@
 $(":checkbox").change(function() {
     if(this.checked) {
-        $( "#Posters" ).show( "slow" );
+        $( "#Posters" ).show( "fast" );
+        console.log("checked")
     }
 });
 

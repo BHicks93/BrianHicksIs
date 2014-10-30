@@ -24,7 +24,7 @@ var cn = "cbgroup1"
 $(".checkboxes #cb1_1").change(function() { 
     if(this.checked) {
         $( "#Posters" ).show( "fast" );
-        $( "#content" ).hide( "fast" );
+        $( ".content" ).hide( "fast" );
     }
 });
 
@@ -32,28 +32,28 @@ $(".checkboxes #cb1_1").change(function() {
 $(".checkboxes #cb1_2").change(function() { 
     if(this.checked) {
         $( "#Typography" ).show( "fast" );
-        $( "#content" ).hide( "fast" );
+        $( ".content" ).hide( "fast" );
     }
 });
 
 $(".checkboxes #cb1_3").change(function() { 
     if(this.checked) {
         $( "#Identity" ).show( "fast" );
-        $( "#content" ).hide( "fast" );
+        $( ".content" ).hide( "fast" );
     }
 });
 
 $(".checkboxes #cb1_4").change(function() { 
     if(this.checked) {
         $( "#Motion" ).show( "fast" );
-        $( "#content" ).hide( "fast" );
+        $( ".content" ).hide( "fast" );
     }
 });
 
 $(".checkboxes #cb1_5").change(function() { 
     if(this.checked) {
         $( "#Writing" ).show( "fast" );
-        $( "#content" ).hide( "fast" );
+        $( ".content" ).hide( "fast" );
     }
 });
 

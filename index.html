@@ -18,18 +18,6 @@
 	<style>#top, #bottom, #left, #right { display: none; }</style>
 <![endif]-->
 
-<script>
-function togglecheckboxes(master,cn){
-	var cbarray = document.getElementsByClassName(cn);
-	for(var i = 0; i < cbarray.length; i++) {
-		var cb = document.getElementById(cbarray[i].id);
-		cb.checked = master.checked;
-			}
-	}
-	
-	window.addEventListener("scroll", yScroll);
-</script>
-
   </head>
  
   <body>
@@ -46,13 +34,13 @@ function togglecheckboxes(master,cn){
 		Advocating health and wellness on the risd campus within student alliance. 
 		</p>
     	
-    		<div>
+    		<div class="checkboxes">
     			<input type="checkbox" id="cb1_1" class="cbgroup1"><label for="cb1_1">Posters</label></br>
     			<input type="checkbox" id="cb1_2" class="cbgroup1"><label for="cb1_2">Typography</label></br>
     			<input type="checkbox" id="cb1_3" class="cbgroup1"><label for="cb1_3">Identity</label></br>
     			<input type="checkbox" id="cb1_4" class="cbgroup1"><label for="cb1_4">Motion</label></br>
     			<input type="checkbox" id="cb1_5" class="cbgroup1"><label for="cb1_5">Writing</label></br>
-    			<input type="checkbox" id="cbgroup1_master" class="cbgroup1" onchange="togglecheckboxes(this,'cbgroup1')"><label for="cbgroup1_master">See All</label>
+    			<!--<input type="checkbox" id="cbgroup1_master" class="cbgroup1"><label for="cbgroup1_master">See All</label>-->
     		</div>
 	</header>
 
@@ -83,6 +71,7 @@ function togglecheckboxes(master,cn){
     </div>
     
     <!--JavaScript-->
+    
     <script src="javascripts/jquery-2.1.1.min.js"></script>
 	<script src="javascripts/script.js"></script>
     <script src="javascripts/scale.fix.js">

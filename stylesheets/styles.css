@@ -39,10 +39,6 @@ p {
  font-family: 'Rokkitt';
  font-size: 18px;
 	}
-#name {
-text-decoration:none;
-color:black;
-}
 
 a {
   color:#39c;
@@ -278,9 +274,15 @@ float:left;
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
-    width:auto;
+    max-width:500px;
     margin:0;
     background-color:#FFF;
+  }
+  
+  div.content {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
   }
   
   header, section, footer {
@@ -311,6 +313,11 @@ float:left;
     top:52px;
   }
   
+  .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
+	background-color: #FF3;
+	margin:none;
+}
+  
   footer {
   position: absolute !important;
    top: -9999px !important;
@@ -333,7 +340,7 @@ float:left;
   header ul, header p.view {
     position:static;
   }
-  
+   
   pre, code {
     word-wrap:normal;
   }

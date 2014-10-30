@@ -39,6 +39,11 @@ p {
  font-family: 'Rokkitt';
  font-size: 18px;
 	}
+#name {
+text-decoration:none;
+color:black;
+}
+
 a {
   color:#39c;
   text-decoration:none;

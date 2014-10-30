@@ -1,7 +1,8 @@
-$( "checkbox" ).click(function() {
-  $( "#Posters" ).show( "slow" );
+$(".checkbox").change(function() {
+    if(this.checked) {
+        $( "#Posters" ).show( "slow" );
+    }
 });
- 
 
 
 //if boxes have been checked then show a certain div.

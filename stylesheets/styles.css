@@ -213,10 +213,14 @@ hr {
 
 #content { 
 	background:#FFF;
-	z-index:1;
-		
+	z-index:-1;
 	}
-
+	
+#Posters{ display:none;}
+#Typography{display:none;}
+#Identity{display:none;}
+#Motion{display:none;}
+#Writing{display:none;}
 
 
 footer {

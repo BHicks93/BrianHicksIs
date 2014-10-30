@@ -1,6 +1,5 @@
-$( ".cbgroup1:checked" "label" ).show(function() {
-  $( "content2" )
-  });
+$( "p" ).click(function() {
+  $( this ).slideUp();
 });
  
 

@@ -1,4 +1,4 @@
-$(".checkbox").change(function() {
+$(":checkbox").change(function() {
     if(this.checked) {
         $( "#Posters" ).show( "slow" );
     }

@@ -1,5 +1,5 @@
-$( "p" ).click(function() {
-  $( this ).slideUp();
+$( "checkbox" ).click(function() {
+  $( "#Posters" ).show( "slow" );
 });
  
 

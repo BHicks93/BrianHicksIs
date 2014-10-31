@@ -41,7 +41,7 @@ p {
 	}
 
 a {
-  color:#39c;
+  color:#5ee9de;
   text-decoration:none;
 }
 a:hover {
@@ -74,12 +74,12 @@ label {
 }
 
 .cbgroup1 + label:active, .cbgroup1:checked + label:active {
-	background-color: #FF3;
+	background-color: #5ee9de;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 }
 
 .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
-	background-color: #FF3;
+	background-color: #5ee9de;
 	margin:1px;
 }
 
@@ -237,7 +237,7 @@ footer {
 
 #footer a {
 	border: none;
-	color: #39c;
+	color: #5ee9de;
 	font-size:10px;
 }
 
@@ -278,6 +278,11 @@ footer {
     background-color:#FFF;
   }
   
+  div.checkboxes {
+	padding:0px;
+	margin:0px;
+  }
+  
   div.content {
 	position: absolute !important;
 	top: -9999px !important;
@@ -294,6 +299,14 @@ footer {
   padding:15px;
     max-width: 270px;
   }
+  
+  .cbgroup1 + label {
+	padding: 1px;
+	}
+
+  .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
+	margin:0px;
+	}
   
   section {
     overflow: auto;

@@ -57,6 +57,15 @@ $(".checkboxes #cb1_5").change(function() {
     }
 });
 
+$(function(){
+    $(window).bind("load resize", function(){
+        _winHeight = $(window).height();
+
+        // Setting Height
+        $('.writing').css({'height':_winHeight * 0.9}); // 0.5 = 50%, 0.8 = 80%
+    });
+});
+
 
 //if boxes have been checked then show a certain div.
 //define all divs with images and the in css desplay:none;

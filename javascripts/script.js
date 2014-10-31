@@ -57,6 +57,12 @@ $(".checkboxes #cb1_5").change(function() {
     }
 });
 
+$(".checkboxes #cb1_6").change(function() { 
+    if(this.checked) {
+        location.reload();
+    }
+});
+
 $(function(){
     $(window).bind("load resize", function(){
         _winHeight = $(window).height();

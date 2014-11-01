@@ -21,13 +21,19 @@ var cn = "cbgroup1"
 
 
 //When checkbox is checked turn on information (posters, type, etc.) and turn off 'content'
+$(".checkboxes #cb1_0").change(function() { 
+    if(this.checked) {
+        $( "#About" ).show( "fast" );
+        $( ".content" ).hide( "fast" );
+    }
+});
+
 $(".checkboxes #cb1_1").change(function() { 
     if(this.checked) {
         $( "#Posters" ).show( "fast" );
         $( ".content" ).hide( "fast" );
     }
 });
-
 
 $(".checkboxes #cb1_2").change(function() { 
     if(this.checked) {

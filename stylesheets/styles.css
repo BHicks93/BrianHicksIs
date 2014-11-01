@@ -103,14 +103,14 @@ label {
 
 .clear {
 	display: none;
-	
 }
 
 .clear + label {
 	background-color: #FFF;
+	font-size: 40px;
+	padding: 8px;
 	display: inline-block;
 	position: relative;
-	font-size: 40px;
 	width:100%;
 	text-align: center;
 }

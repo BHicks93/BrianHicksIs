@@ -295,6 +295,10 @@ footer {
     width:auto;
   }
   
+   #slides {
+      display:none;
+    }
+  
   header {
   padding:15px;
     max-width: 270px;

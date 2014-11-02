@@ -258,12 +258,11 @@ hr {
 	z-index:-1;
 	}
 	
-#About{ display:none;}
-#Posters{ display:none;}
-#Typography{display:none;}
-#Identity{display:none;}
-#Motion{display:none;}
-#Writing{display:none;}
+#About, #Posters, #Typography, #Identity, #Motion, #Writing{ 
+	display:none;
+	max-height:700px;
+	overflow-y: scroll;
+	text-rendering: optimizeLegibility;}
 
 
 footer {

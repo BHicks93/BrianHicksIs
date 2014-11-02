@@ -315,7 +315,7 @@ footer {
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
-    max-width:500px;
+    max-width:510px;
     margin:0;
     background-color:#FFF;
   }
@@ -347,7 +347,7 @@ footer {
   }
   
   .cbgroup1 + label {
-	padding: 1px;
+	padding: 3px;
 	}
 
   .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
@@ -371,7 +371,7 @@ footer {
   }
   
   .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
-	background-color: #FF3;
+	background-color: #5ee9de;
 	margin:none;
 }
   

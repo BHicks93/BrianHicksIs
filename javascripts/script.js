@@ -5,7 +5,6 @@ $(".checkboxes #cb1_0").change(function() {
         $( ".content" ).hide( "fast" );
   } else {
     $( "#About" ).hide( "fast" );
-    $( ".content" ).show( "fast" );
     }
 });
 
@@ -15,7 +14,6 @@ $(".checkboxes #cb1_1").change(function() {
         $( ".content" ).hide( "fast" );
     } else {
     $( "#Posters" ).hide( "fast" );
-    $( ".content" ).show( "fast" );
     }
 });
 
@@ -25,7 +23,6 @@ $(".checkboxes #cb1_2").change(function() {
         $( ".content" ).hide( "fast" );
     } else {
     $( "#Typography" ).hide( "fast" );
-    $( ".content" ).show( "fast" );
     }
 });
 
@@ -35,7 +32,6 @@ $(".checkboxes #cb1_3").change(function() {
         $( ".content" ).hide( "fast" );
     } else {
     $( "#Identity" ).hide( "fast" );
-    $( ".content" ).show( "fast" );
     }
 });
 
@@ -45,7 +41,6 @@ $(".checkboxes #cb1_4").change(function() {
         $( ".content" ).hide( "fast" );
     } else {
     $( "#Motion" ).hide( "fast" );
-    $( ".content" ).show( "fast" );
     }
 });
 
@@ -55,7 +50,6 @@ $(".checkboxes #cb1_5").change(function() {
         $( ".content" ).hide( "fast" );
     } else {
     $( "#Writing" ).hide( "fast" );
-    $( ".content" ).show( "fast" );
     }
 });
 

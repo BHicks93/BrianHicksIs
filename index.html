@@ -1,6 +1,6 @@
 <!--Want check boxes to toggle on and off content like this http://htmloutput.risd.gd/book/-->
-
 <!doctype html>
+<html lang="en">
 <html>
   <head>
     <meta charset="utf-8">
@@ -18,6 +18,19 @@
 	<style>#top, #bottom, #left, #right { display: none; }</style>
 <![endif]-->
 	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+ 
+<script type="text/javascript">
+$( init );
+function init() {
+  $('.drag').draggable({
+  	containment: 'document'
+  });
+}
+</script>
+
   </head>
  
   <body>
@@ -28,25 +41,25 @@
       <header>
 		
     	
-    		<div class="checkboxes">
+    	<!--	<div class="checkboxes">
     			<input type="checkbox" id="cb1_0" class="cbgroup1"><label for="cb1_0">About</label></br>
     			<input type="checkbox" id="cb1_1" class="cbgroup1"><label for="cb1_1">Posters</label></br>
     			<input type="checkbox" id="cb1_2" class="cbgroup1"><label for="cb1_2">Typography</label></br>
     			<input type="checkbox" id="cb1_3" class="cbgroup1"><label for="cb1_3">Identity</label></br>
     			<input type="checkbox" id="cb1_4" class="cbgroup1"><label for="cb1_4">Motion</label></br>
     			<input type="checkbox" id="cb1_5" class="cbgroup1"><label for="cb1_5">Writing</label></br>
-    			<!--<input type="checkbox" id="cbgroup1_master" class="cbgroup1"><label for="cbgroup1_master">See All</label>-->
-    		</div>
+    			<input type="checkbox" id="cbgroup1_master" class="cbgroup1"><label for="cbgroup1_master">See All</label>
+    		</div>-->
 	</header>
 
       <!--<span class="blink">Under Construction</span>-->
       
 	<section>
 			
-   		 <div class="content"><h1>GRAPHIC DESIGN AND STUFF...</h1>
-   		 </div>
+   		 <!--<div class="content"><h1>GRAPHIC DESIGN AND STUFF...</h1>
+   		 </div>-->
    		 
-   		 <div id="About" class="portfolio_work"></br>
+   		 <!--<div id="About" class="portfolio_work"></br>-->
     		<p>Studying graphic design at the rhode island school of design. 
 		Creative problem solving at <a href="http://synergy.rocks/">synergy.thinking</a>.
 		Representing the undergrad <a href="http://risd.gd/">graphic design</a> department at risd.
@@ -55,8 +68,14 @@
 		</p>
     	</div>
     						
-    	<div id="Posters" class="portfolio_work">
-    		<img src="images/posters/blurynoise.jpg">
+    	<!--<div id="Posters" class="portfolio_work">-->
+    		<div id="arborvit" class="drag">	
+		<img src="images/posters/blurynoise.jpg" alt="picture" width="605" height="448"> 
+			<span id="arborvitd">
+				<!--info here-->
+			</span>
+
+		</div>
     		<img src="images/posters/Olympics.jpg">
     		<img src="images/posters/Poster.jpg">
     		<img src="images/posters/Poster1.jpg">
@@ -72,7 +91,7 @@
     		<img src="images/posters/light_and_color3.jpg">
     	</div>
     	
-    	<div id="Typography" class="portfolio_work">
+    	<!--<div id="Typography" class="portfolio_work">-->
     		<img src="images/typography/BlendBook.jpg"/></br>
     		<img src="images/typography/Emigre.jpg"/></br>
     		<img src="images/typography/Emigre1.jpg"/></br>
@@ -85,7 +104,7 @@
     		<img src="images/typography/Calvino8.jpg"/></br>
     	</div>
     	
-    	<div id="Identity" class="portfolio_work">
+    	<!--<div id="Identity" class="portfolio_work">-->
    			<img src="images/posters/Guggenhiem_Poster.jpg"></br>
    			<img src="images/identity/guggenhiem_app.jpg"></br>
     		<img src="images/identity/Kit.JPG"/></br>
@@ -94,14 +113,14 @@
     	</div>
     	
     	
-    	<div id="Motion" class="portfolio_work">
+    	<!--<div id="Motion" class="portfolio_work">-->
     		<iframe src="//player.vimeo.com/video/110521437" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></br>
     		<iframe src="//player.vimeo.com/video/109607520" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></br>
     		<iframe src="//player.vimeo.com/video/108082577" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></br>
     	</div>
     	
     	
-    	<div id="Writing" class="portfolio_work">
+    	<!--<div id="Writing" class="portfolio_work">
     	<h3>Zang Tumb Tumb</h3></br><p>The poetic novel Zang Tumb Tumb, also know as Zang Tumb Tuuum, belongs to a book published in 1914 written by Filippo Tommaso Marinetti (1876-1944). Marinetti was the founder of the Futurists movement and Zang Tumb Tumb was his experimental book of poetry that embraced a new kind of literature known as “words in freedom,” a “radical new literary style that broke grammatical and typographic rules and made extensive use of onomatopoeia to convey meaning.” Marinetti, his movement, and his book shifted the history of written and verbal language.
 
 Marinetti was a rebellious young poet, playwright and political activists. His 1909 Futurists manifesto, Manifeste de Futurisme, set up the central ideas of what it meant to be a Futurist and what Futurism was all about. The glorification of war, the love of danger, and the need to embrace technology and machine all rang loudly in his manifesto. He also wanted to push society away from classical grammar and literature towards a language that is free of syntax, grammar, punctuation, and typographical standardization. He felt that traditional books were unable to communicate the feelings of modern society and his “words in freedom” were the new best way to express oneself. This manifesto spread rapidly throughout Europe and used media, such as newspapers, as a means of doing so.
@@ -114,25 +133,16 @@ Licko’s typefaces evolved overtime as did the computer she made them on and th
 The computer became more common and modern culture caught up with Licko and Emigre. What was once considered experimental design was now the common way to communicate to the youth. Since Licko and VanderLans were never satisfied with convention, Emigre evolved, matured, and changed once again. The magazine changed its physical size and switched its focus from experimental compositions to refined articles. This influenced Licko to start creating fonts that were better suited for longer reads. Her favorite typeface, Bodoni, whose extreme contrast between thick and thin made it difficult to read long text at small sizes. So in 1996 she created Filosofia a Bodoni revival. Licko states, “When drawing a revival, I question the form of each character and element according to my own sensibilities, as though I were drawing it as an original design.” (Creative Type by Thames & Hudson)
 </p>
     	
-    	</div>
+    	</div>-->
     	
 	</section>
 	
 	
 	
 	
-	
+	<!-- Footer-->
 	
 	<style type="text/css">
-
-body {
-
-}
-
-
-
-
-
 #apDiv1 {
 
 	position:fixed;
@@ -156,9 +166,6 @@ body {
 	visibility: hidden;
 
 }
-
-
-
 #apDiv2 {
 
 	position:fixed;
@@ -184,13 +191,6 @@ body {
 }
 
 
-
-
-
-}
-
-
-
 </style>
 
 <script type="text/javascript">
@@ -211,114 +211,64 @@ function MM_showHideLayers() { //v9.0
 
 </script>
 
-</head>
-
-
 
 <body>
+	<div class="film2">
+		&nbsp;<br/>
+	<div style="position:fixed; bottom:20px; left:30px; cursor:e-resize; z-index:10;" onclick="MM_showHideLayers('apDiv1','','show')"><font size="4">✎</font></a></div>
+	<div class="text" style="position:fixed; bottom:20px; right:20px; z-index:10;"></div>
 
-<div class="film2">
-
-&nbsp;<br/>
-
-<div style="position:fixed; bottom:20px; left:30px; cursor:e-resize; z-index:10;" onclick="MM_showHideLayers('apDiv1','','show')"><font size="4">✎</font></a></div>
-
-<div class="text" style="position:fixed; bottom:20px; right:20px; z-index:10;"></div>
-
-<div id="apDiv1" onclick="MM_showHideLayers('apDiv1','','hide')"><div id="footer">  <ul id="menu-main" class="menu">
-<div class="text" style="position:fixed; bottom:20px; right:20px; z-index:10;">Brian Hicks 2014</div> 
-			<li id="menu-item-1" class="menu-item"><a href="mailto:bhicks@risd.edu" title="Holla">Contact</a></li>
-			<li id="menu-item-2" class="menu-item"><a href="http://facebook.com/brian.hicks.560" title="Poke Me">Facebook</a></li>
-			<li id="menu-item-3" class="menu-item"><a href="http://instagram.com/bhicks93" title="Filters on Filters">Instagram</a></li>
-			<li id="menu-item-4" class="menu-item"><a href="http://brianhicks.tumblr.com/" title="Cats & Babes">Tumblr</a></li>
-			<li id="menu-item-5" class="menu-item"><a href="https://github.com/BHicks93" title="Fork Me">GitHub</a></li>
-			<li id="menu-item-6" class="menu-item"><a href="http://www.youtube.com/watch?v=41qC3w3UUkU" title="Get Money">&#9760</a></li>
-		</ul>
+	<div id="apDiv1" onclick="MM_showHideLayers('apDiv1','','hide')">
+		<div id="footer">  
+			<ul id="menu-main" class="menu">
+				<div class="text" style="position:fixed; bottom:20px; right:20px; z-index:10;">Brian Hicks 2014</div> 
+				<li id="menu-item-1" class="menu-item"><a href="mailto:bhicks@risd.edu" title="Holla">Contact</a></li>
+				<li id="menu-item-2" class="menu-item"><a href="http://facebook.com/brian.hicks.560" title="Poke Me">Facebook</a></li>
+				<li id="menu-item-3" class="menu-item"><a href="http://instagram.com/bhicks93" title="Filters on Filters">Instagram</a></li>
+				<li id="menu-item-4" class="menu-item"><a href="http://brianhicks.tumblr.com/" title="Cats & Babes">Tumblr</a></li>
+				<li id="menu-item-5" class="menu-item"><a href="https://github.com/BHicks93" title="Fork Me">GitHub</a></li>
+				<li id="menu-item-6" class="menu-item"><a href="http://www.youtube.com/watch?v=41qC3w3UUkU" title="Get Money">&#9760</a></li>
+			</ul>
 		</div></a>
-
-</font>
-
-</div>
-
+		</font>
+	</div>
 </body>
-
 </html>
-
-
-
 
 
 <body>
-
-<div class="film2">
-
-&nbsp;<br/>
-
-<div style="position:fixed; top:0px; right:30px; cursor:w-resize; z-index:10;" onclick="MM_showHideLayers('apDiv2','','show')"><font size="4"></font></a></div>
-
-<div class="text" style="position:fixed; top:0px; right:20px; z-index:10;"></div>
-
-<div id="apDiv2" onclick="MM_showHideLayers('apDiv2','','hide')"><font color="white">
-
-
-</font>
-
-</div>
-
+	<div class="film2">
+		&nbsp;<br/>
+	<div style="position:fixed; top:0px; right:30px; cursor:w-resize; z-index:10;" onclick="MM_showHideLayers('apDiv2','','show')"><font size="4"></font></a></div>
+	<div class="text" style="position:fixed; top:0px; right:20px; z-index:10;"></div>
+	<div id="apDiv2" onclick="MM_showHideLayers('apDiv2','','hide')"><font color="white">
+	</font>
+	</div>
 </body>
-
 </html>
 
-
+<!-- PAGE TOP-->
 <div style="position:fixed; width:50px; left:30px; bottom:70px;color:#333333 "><a href="#"><font size="3"><font color="#333333">↑</font></font></a></div>
 
-
-
+<!-- NAME ON LEFT-->
 <div class="post" style="position:fixed; width:10px; left:30px; top:20px; ">
-
-  <div style="color:#333333 " align="center">
-
-    B<br /><br />R<br /><br />I<br /><br />A<br /><br />N<br /><br /><br /><br /><br /><br /> H<br /><br />I<br /><br />C<br /><br />K<br /><br />S
-
-    <p>&nbsp;</p>
-
-    </p>
-
-  </div>
-
+	<div style="color:#333333 " align="center">
+		B<br /><br />R<br /><br />I<br /><br />A<br /><br />N<br /><br /><br /><br /><br /><br /> H<br /><br />I<br /><br />C<br /><br />K<br /><br />S
+	<p>&nbsp;</p>
+	</p>
 </div>
-
+</div>
 <p></p>
-
 <div id="">
-
-  <p></p>
-
+<p></p>
 <div id=""></div>
-
 </div>
-
-
-
-
 
 <div style="position:fixed; width:50px; right:30px; bottom:70px;color:#333333 "><a href="#"><font size="3"><font color="#333333"><div style="position:fixed; width:50px; left:30px; bottom:70px;color:#333333 "><a href="#"><font size="3"><font color="#333333">↑</font></font></a></div>
 
-
-
-
 	</ul><!-- /sidebar2 -->
 
-</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
+</div>	
 	
 	<footer>	 
    <!--   <div id="footer">  <ul id="menu-main" class="menu">

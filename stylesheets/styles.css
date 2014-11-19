@@ -408,6 +408,9 @@ footer {
   display:none;
   
   }
+  .text{
+  display:none;
+  }
 }
 
 @media print {

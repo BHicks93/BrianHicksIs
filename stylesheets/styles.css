@@ -295,6 +295,9 @@ footer {
 }
 
 
+div.iphoneBrian{
+	display:none;
+  }
         
 @media print, screen and (max-width: 960px) {
   
@@ -402,6 +405,11 @@ footer {
   section {
     padding:0px;
     margin:0 0 0px;
+  }
+  
+  div.iphoneBrian{
+  display:initial;
+  font-size:12px;
   }
   
   .post{

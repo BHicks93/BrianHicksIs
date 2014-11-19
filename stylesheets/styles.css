@@ -85,11 +85,8 @@ label {
 
 
 
-
-
-
 .wrapper {
-  width:860px;
+  width:1260px;
   margin:0 auto;
   background-color:#000;
   margin-top: 30px;
@@ -141,10 +138,7 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:absolute;
-  padding-top:75px;
+
 }
 		
 
@@ -183,9 +177,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
-  padding-top:75px;
+  float:left;
+  padding-top:15px;
 }
 
 small {
@@ -211,6 +204,45 @@ hr {
 	max-height:700px;
 	overflow-y: scroll;
 	text-rendering: optimizeLegibility;}
+
+
+/* INFO */
+#info{
+			position:absolute; 
+			left: 30%; 
+			top:50px;
+			z-index:3;
+
+		}
+
+		#info{
+			display: none;
+			font-family: arial;
+			font-weight: bold;
+			font-size: 30px;
+			position: absolute;
+			left: 5%;
+			top: 5%;
+			color: #66FFCC;
+
+		}
+
+		#info{
+			opacity: 1;
+		}
+
+		#info:hover #info {
+  			display: block;
+  		}
+
+  		#info:hover #info  {
+  			opacity: .3;
+  		}
+
+  		#info:hover {
+  			z-index: 1000;
+  		}
+
 
 
 footer {
@@ -257,50 +289,46 @@ footer {
 
 
 .blink {
-position:absolute;
-top:30px;
-left:10px;
-font-size:200px;
 color:red;
-    -webkit-animation: blink .75s linear infinite;
-    -moz-animation: blink .75s linear infinite;
-    -ms-animation: blink .75s linear infinite;
-    -o-animation: blink .75s linear infinite;
-    animation: blink .75s linear infinite;
+    -webkit-animation: blink .05s linear infinite;
+    -moz-animation: blink .05s linear infinite;
+    -ms-animation: blink .05s linear infinite;
+    -o-animation: blink .05s linear infinite;
+    animation: blink .05s linear infinite;
 }
 
 @-webkit-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
+    50.01% { opacity: .7; }
     100% { opacity: 0; }
 }
 
 @-moz-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
+    50.01% { opacity: 1; }
     100% { opacity: 0; }
 }
 
 @-ms-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
+    50.01% { opacity: .7; }
     100% { opacity: 0; }
 }
 
 @-o-keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
+    50.01% { opacity: .7; }
     100% { opacity: 0; }
 }
 
 @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 1; }
-    50.01% { opacity: 0; }
+    50.01% { opacity: .7; }
     100% { opacity: 0; }
 }
 
@@ -310,7 +338,8 @@ color:red;
   
   div.wrapper {
     max-width:510px;
-    margin:0;
+    margin-left: 50px;
+    margin-top:-20px;
     background-color:#FFF;
   }
   

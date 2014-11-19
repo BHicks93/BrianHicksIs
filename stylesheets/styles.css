@@ -38,6 +38,8 @@ h3, h4, h5, h6 {
 p {
  font-family: 'Rokkitt';
  font-size: 18px;
+ float:left;
+ max-width:300px;
 	}
 
 a {
@@ -206,45 +208,6 @@ hr {
 	text-rendering: optimizeLegibility;}
 
 
-/* INFO */
-#info{
-			position:absolute; 
-			left: 30%; 
-			top:50px;
-			z-index:3;
-
-		}
-
-		#info{
-			display: none;
-			font-family: arial;
-			font-weight: bold;
-			font-size: 30px;
-			position: absolute;
-			left: 5%;
-			top: 5%;
-			color: #66FFCC;
-
-		}
-
-		#info{
-			opacity: 1;
-		}
-
-		#info:hover #info {
-  			display: block;
-  		}
-
-  		#info:hover #info  {
-  			opacity: .3;
-  		}
-
-  		#info:hover {
-  			z-index: 1000;
-  		}
-
-
-
 footer {
   max-width:300px;
 }
@@ -289,7 +252,6 @@ footer {
 
 
 .blink {
-color:red;
     -webkit-animation: blink .05s linear infinite;
     -moz-animation: blink .05s linear infinite;
     -ms-animation: blink .05s linear infinite;

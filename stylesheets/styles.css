@@ -403,6 +403,11 @@ footer {
     width: 300px;
     
   }
+  
+  .post{
+  display:none;
+  
+  }
 }
 
 @media print {

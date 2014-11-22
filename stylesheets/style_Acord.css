@@ -1,5 +1,5 @@
 .ia-container {
-	width: 1400px;
+	width: 1300px;
 	margin: 20px auto;
 	overflow: hidden;
 	box-shadow: 0px 0px 0px rgba(0,0,0,0.08);
@@ -8,8 +8,8 @@
 
 .ia-container figure {
     position: absolute;
-	top: 0px;
-	left: 20px; /* width of visible piece */
+	top: -17px;
+	left: 15px; /* width of visible piece */
 	width: 500px;
     box-shadow: 0 0 0 0px rgba(255,255,255,0.6);
 	-webkit-transition: all 0.3s ease-in-out;

@@ -202,7 +202,8 @@
 
 .ia-container > figure {
     position: relative;
-	left: 0px !important;
+	left: -35px !important;
+	top: -10px !important;
 }
 
 .ia-container img {

@@ -179,19 +179,19 @@
 @media screen and (max-width: 520px) {
 
 .ia-container {
-	width: 300px;
-	height:760px;
+	width: 350px;
+	height:1300px;
 	padding-top: 0px;
-	overflow: visible;
+	overflow: hidden;
 	box-shadow: 0px 0px 0px rgba(0,0,0,0.08);
 	border: 0px solid rgba(255,255,255,0.6);
 }
 
 .ia-container figure {
     position: absolute;
-	top: 0px;
+	top: 21px;
 	left: -40px; /* width of visible piece */
-	width: 180px;  
+	width: 280px;  
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6);
 	-webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -215,7 +215,7 @@
 	top: 0px;
 	left: 0px;
 	width: 100%;  
-	height: 15px; /* just cover visible part */
+	height: 20px; /* just cover visible part */
 	cursor: pointer;
 	border: 0px;
 	padding: 0px;
@@ -238,7 +238,7 @@
     -ms-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
 	left: -40px;  /* space to the right of photo */
-	top:250px;
+	top:395px;
 }
 
 .ia-container figcaption {

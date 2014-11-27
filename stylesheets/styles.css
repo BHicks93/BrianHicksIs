@@ -291,11 +291,6 @@ footer {
     50.01% { opacity: .7; }
     100% { opacity: 0; }
 }
-
-
-div.iphoneBrian{
-	display:none;
-  }
   
 #about-bottom, #about-bottom-clm2, #about-bottom-clm3, #about-bottom-clm4, #about-bottom-clm5{
 float:left;
@@ -400,11 +395,6 @@ margin-bottom}
   section {
     padding:0px;
     margin:0 0 0px;
-  }
-  
-  div.iphoneBrian{
-  display:initial;
-  font-size:12px;
   }
   
   .post{

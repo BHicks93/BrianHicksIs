@@ -347,6 +347,7 @@ margin-bottom}
   section {
     padding:0px;
     margin:0 0 0 0px;
+    overflow: hidden;
   }
   
   .post{

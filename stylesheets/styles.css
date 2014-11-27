@@ -248,50 +248,6 @@ footer {
 	border-bottom: 1px solid #ccc;
 }
 
-
-.blink {
-    -webkit-animation: blink .05s linear infinite;
-    -moz-animation: blink .05s linear infinite;
-    -ms-animation: blink .05s linear infinite;
-    -o-animation: blink .05s linear infinite;
-    animation: blink .05s linear infinite;
-}
-
-@-webkit-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: .7; }
-    100% { opacity: 0; }
-}
-
-@-moz-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: 1; }
-    100% { opacity: 0; }
-}
-
-@-ms-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: .7; }
-    100% { opacity: 0; }
-}
-
-@-o-keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: .7; }
-    100% { opacity: 0; }
-}
-
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 1; }
-    50.01% { opacity: .7; }
-    100% { opacity: 0; }
-}
-  
 #about-bottom, #about-bottom-clm2, #about-bottom-clm3, #about-bottom-clm4, #about-bottom-clm5{
 float:left;
 padding-left:10px;
@@ -305,12 +261,6 @@ margin-bottom}
   div.checkboxes {
 	padding:0px;
 	margin:0px;
-  }
-  
-  div.content {
-	position: absolute !important;
-	top: -9999px !important;
-	left: -9999px !important;
   }
   
   header, section, footer {
@@ -379,10 +329,12 @@ margin-bottom}
 
   body {
     word-wrap:break-word;  
+    padding:0px;
+    margin:0px;
   }
     div.wrapper {
-    margin-left: -12px;
-    margin-top:0px;
+    margin:0px;
+    padding:0px;
   }
   header {
     padding:0px;
@@ -394,7 +346,7 @@ margin-bottom}
   
   section {
     padding:0px;
-    margin:0 0 0px;
+    margin:0 0 0 0px;
   }
   
   .post{

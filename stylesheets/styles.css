@@ -253,8 +253,8 @@ float:left;
 padding-left:10px;
 margin-bottom}
         
-#skull{position:fixed; bottom:20px; left:20px; cursor:e-resize; z-index:10;}
-#arrow{position:fixed; width:50px; left:30px; bottom:80px;color:#333333}
+#skull{font-size:60px; position:fixed; bottom:20px; left:20px; cursor:e-resize; z-index:10;}
+#arrow{font-size:20px; position:fixed; width:50px; left:30px; bottom:80px;color:#333333}
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -360,7 +360,7 @@ margin-bottom}
   display:none;
   }
   #skull{font-size:140px; position:fixed; top:-20px; left:100px; cursor:e-resize; z-index:10;}
-  #arrow{position:fixed; width:50px; left:30px; bottom:10px;color:#333333}
+  #arrow{font-size:20px; position:fixed; width:50px; left:10px; bottom:10px;color:#333333}
 }
 
 @media print {

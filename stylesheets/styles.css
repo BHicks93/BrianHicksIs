@@ -36,8 +36,8 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 p {
- font-family: 'Rokkitt';
- font-size: 18px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 13px;
  float:left;
  max-width:300px;
 	}
@@ -218,8 +218,8 @@ hr {
 /* @group Blink */
 
 .blink {
-	padding-top:-20px;
 	font-size:21em;
+	line-height:280px;
 	color:#FF0080;
     -webkit-animation: blink 10s linear infinite;
     -moz-animation: blink 10s linear infinite;
@@ -288,8 +288,8 @@ hr {
 /* @end */
 
 
-.portfolio{font-size:3em;
-	margin-left:35px;}
+.portfolio{font-size:2em;
+	margin:40px;}
 
 
 footer {
@@ -341,6 +341,7 @@ margin-bottom}
         
 #skull{font-size:60px; position:fixed; bottom:20px; left:20px; cursor:e-resize; z-index:10;}
 #arrow{font-size:20px; position:fixed; width:50px; left:30px; bottom:80px;color:#333333}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -411,6 +412,13 @@ margin-bottom}
   pre, code {
     word-wrap:normal;
   }
+  
+  .blink {
+	font-size:2em;
+	line-height:1em;
+}
+
+
 }
 
 @media print, screen and (max-width: 480px) {
@@ -445,8 +453,15 @@ margin-bottom}
   .text{
   display:none;
   }
-  #skull{font-size:140px; position:fixed; top:-20px; left:100px; cursor:e-resize; z-index:10;}
+  #skull{font-size:140px; position:fixed; bottom:-20px; left:100px; cursor:e-resize; z-index:10;}
   #arrow{font-size:20px; position:fixed; width:50px; left:10px; bottom:10px;color:#333333}
+    .blink {
+	position:absolute;
+	top:-99999px;
+	left:-99999px;
+}
+.portfolio{font-size:2em;
+	margin:10px;}
 }
 
 @media print {

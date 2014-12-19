@@ -125,13 +125,17 @@ footer {
   float: left;
 }
 
-.item.w2 { width:  120px; }
-.item.w3 { width:  180px; }
-.item.w4 { width:  240px; }
+.item.w2 { width:  700px; }
+.item.w2 { width:  774px; }
+.item.w2 { width:  500px; }
 
-.item.h2 { height: 100px; }
-.item.h3 { height: 130px; }
-.item.h4 { height: 180px; }
+.item.h2 { height: 1353px; }
+.item.h3 { height: 1120px; }
+.item.h4 { height: 1050px; }
+.item.h5 { height: 1390px; }
+.item.h6 { height: 1081px; }
+.item.h7 { height: 774px; }
+.item.h8 { height: 332px; }
 
 
 

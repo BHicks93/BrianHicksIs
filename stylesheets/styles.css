@@ -196,32 +196,17 @@ footer {
 
 @media print, screen and (max-width: 960px) {
   
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;}
-  
-  header a small {
-    display:inline;}
 }
 
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;}
   
-  header {
-   padding-left:45px;
-    max-width: 270px; }
-  
   header ul, header p.view {
     position:static; }
    
   pre, code {
     word-wrap:normal; }
-  
-  .blink {
-	font-size:2em;
-	line-height:1em;}
 }
 
 @media print, screen and (max-width: 480px) {

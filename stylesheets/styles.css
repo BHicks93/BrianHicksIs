@@ -40,7 +40,8 @@ p {
 
 a {
   color:#D3D3D3;
-  text-decoration:none;}
+  text-decoration:none;
+  letter-spacing: 2px;}
 a:hover {
   border-bottom: 1px solid #F63;}
 a small {

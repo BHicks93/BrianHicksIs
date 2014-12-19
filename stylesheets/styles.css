@@ -165,143 +165,68 @@ header ul a strong {
 
 .images{width: 55%;}
 
-#About, #Posters, #Typography, #Identity, #Motion, #Writing{ 
-	display:none;
-	max-height:700px;
-	overflow-y: scroll;
-	text-rendering: optimizeLegibility;}
-
-.portfolio{font-size:2em;
-	margin:40px;}
-
 
 footer {
-  max-width:300px;
-}
-
+  max-width:300px;}
 #footer {
 	float:left;
 	position: absolute;
 	bottom: 0px;
-	padding: 0px 0px;
-}
-
+	padding: 0px 0px;}
 #footer a {
 	border: none;
 	color: #000;
-	font-size:10px;
-}
-
+	font-size:10px;}
 #footer a:hover {
-	border-bottom: 1px solid #F63;
-}
+	border-bottom: 1px solid #F63;}
 #footer ul {
 	float: left;
-	margin-left: -30px;
-}
+	margin-left: -30px;}
 #footer ul li {
-	display: inline;
-}
+	display: inline;}
 #footer #copyright {
-	float: left;
-}
+	float: left;}
 #footer #copyright:after,
 #footer ul li:after {
-	content: ' / '; font-size:10px;
-}
+	content: ' / '; font-size:10px;}
 #footer #credit {
-	float: right;
-}
-
+	float: right;}
 #footer #credit a:hover {
-	border-bottom: 1px solid #ccc;
-}
-
-#about-bottom, #about-bottom-clm2, #about-bottom-clm3, #about-bottom-clm4, #about-bottom-clm5{
-float:left;
-padding-left:10px;
-margin-bottom}
-        
-#skull{font-size:60px; position:fixed; bottom:20px; left:20px; cursor:e-resize; z-index:10;}
-#arrow{font-size:20px; position:fixed; width:50px; left:30px; bottom:80px;color:#333333}
+	border-bottom: 1px solid #ccc;}
 
 @media print, screen and (max-width: 960px) {
-  
-  div.wrapper {
-  }
-  
-  div.checkboxes {
-	padding:0px;
-	margin:0px;
-  }
   
   header, section, footer {
     float:none;
     position:static;
-    width:auto;
-  }
-  
-  header {
-  }
-  
-  .cbgroup1 + label {
-	padding: 3px;
-	}
-
-  .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
-	margin:0px;
-	}
-  
-  section {
-    overflow: auto;
-  }
+    width:auto;}
   
   header a small {
-    display:inline;
-  }
+    display:inline;}
   
   header ul {
     position:absolute;
     right:50px;
-    top:52px;
-  }
-  
-  .cbgroup1 + label:hover, .cbgroup1:checked + label:hover {
-	background-color: #5ee9de;
-	margin:none;
-}
-  
-  footer {
-  position: absolute !important;
-   top: -9999px !important;
-   left: -9999px !important;
-}
+    top:52px;}
 }
 
 @media print, screen and (max-width: 720px) {
   body {
-    word-wrap:break-word;
-  }
+    word-wrap:break-word;}
   
   header {
    padding-left:45px;
-    max-width: 270px;  
-  }
+    max-width: 270px; }
   
   header ul, header p.view {
-    position:static;
-  }
+    position:static; }
    
   pre, code {
-    word-wrap:normal;
-  }
+    word-wrap:normal; }
   
   .blink {
 	font-size:2em;
-	line-height:1em;
-}
-
-
+	line-height:1em;}
 }
 
 @media print, screen and (max-width: 480px) {
@@ -311,17 +236,7 @@ margin-bottom}
     padding:0px;
     margin:0px;
   }
-    div.wrapper {
-    margin:0px;
-    padding:0px;
-  }
-  header {
-    padding:0px;
-  }
-  
-  header ul {
-    display:none;
-  }
+
   
   section {
     padding:0px;
@@ -336,15 +251,6 @@ margin-bottom}
   .text{
   display:none;
   }
-  #skull{font-size:140px; position:fixed; bottom:-20px; left:100px; cursor:e-resize; z-index:10;}
-  #arrow{font-size:20px; position:fixed; width:50px; left:10px; bottom:10px;color:#333333}
-    .blink {
-	position:absolute;
-	top:-99999px;
-	left:-99999px;
-}
-.portfolio{font-size:2em;
-	margin:10px;}
 }
 
 @media print {

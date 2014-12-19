@@ -118,26 +118,23 @@ footer {
 	border-bottom: 1px solid #ccc;}
 
 .masonry {
-	background: #EEE;
   max-width: 90%;
 }
 
 .masonry .item {
-	width:  200px;
-  	height: 200px;
+	width:  350px;
+  	height: 350px;
   	float: left;
 }
 
 
-.item.w2 { width:  200px; }
-/*
-.item.h2 { height: 1353px; }
-.item.h3 { height: 1120px; }
-.item.h4 { height: 1050px; }
-.item.h5 { height: 1390px; }
-.item.h6 { height: 1081px; }
-.item.h7 { height: 774px; }
-.item.h8 { height: 332px; }
+.item.w2 { width:  350px; }
+
+.item.h2 { height: 676.5px; }
+.item.h3 { height: 560px; }
+.item.h4 { height: 525px; }
+.item.h5 { height: 695px; }
+.item.h6 { height: 540.5px; }
 */
 
 

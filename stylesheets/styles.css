@@ -61,14 +61,11 @@ img {
 }
 
 header ul {list-style:none;
-    position:absolute;
+    position:fixed;
     right:1%;
-    top:12px;}
+    top:12px;
+    z-index:2;}
 
- #navigation li {list-style:none;
- 	display: block;
-    right:1%;
-    top:12px;}
 
 header ul li + li {
   width:88px;
@@ -120,7 +117,7 @@ footer {
 	border-bottom: 1px solid #ccc;}
 
 .masonry {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .masonry .item {
@@ -151,12 +148,7 @@ footer {
     padding-top:0px;
     margin-top:0px;
   }
- 
-  header ul, header p.view {
-    position:static;
-    display: inline;
-list-style-type: none;
-     }
+
    
   pre, code {
     word-wrap:normal; }

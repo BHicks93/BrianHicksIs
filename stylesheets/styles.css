@@ -118,11 +118,11 @@ footer {
 	border-bottom: 1px solid #ccc;}
 
 .masonry {
-	max-width:70%;
+max-width:700px;
 }
 
 .masonry .item {
-  width:  40px;
+  width:  50%;
   float: left;
 }
 

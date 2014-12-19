@@ -62,7 +62,7 @@ img {
 
 header ul {list-style:none;
     position:absolute;
-    right:50px;
+    right:1%;
     top:12px;}
 
 header ul li + li {

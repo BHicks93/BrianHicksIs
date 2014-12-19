@@ -123,14 +123,14 @@ footer {
 }
 
 .masonry .item {
-	width:  60px;
-  	height: 60px;
+	width:  200px;
+  	height: 200px;
   	float: left;
 }
 
 
-.item.w2 { width:  700px; }
-
+.item.w2 { width:  200px; }
+/*
 .item.h2 { height: 1353px; }
 .item.h3 { height: 1120px; }
 .item.h4 { height: 1050px; }
@@ -138,7 +138,7 @@ footer {
 .item.h6 { height: 1081px; }
 .item.h7 { height: 774px; }
 .item.h8 { height: 332px; }
-
+*/
 
 
 @media print, screen and (max-width: 960px) {

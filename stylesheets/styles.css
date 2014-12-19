@@ -65,6 +65,11 @@ header ul {list-style:none;
     right:1%;
     top:12px;}
 
+ #navigation li {list-style:none;
+ 	display: block;
+    right:1%;
+    top:12px;}
+
 header ul li + li {
   width:88px;
   border-left:0px solid #fff;
@@ -81,10 +86,7 @@ header ul a strong {
   color:#222;
 }
 
-#content { 
-	background: #5500D4;;
-	z-index:-1;
-	}
+
 
 .images{width: 25%;}
 
@@ -143,11 +145,18 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+
   body {
-    word-wrap:break-word;}
-  
+    word-wrap:break-word;  
+    padding-top:0px;
+    margin-top:0px;
+  }
+ 
   header ul, header p.view {
-    position:static; }
+    position:static;
+    display: inline;
+list-style-type: none;
+     }
    
   pre, code {
     word-wrap:normal; }
@@ -157,24 +166,10 @@ footer {
 
   body {
     word-wrap:break-word;  
-    padding:0px;
-    margin:0px;
+    padding-top:0px;
+    margin-top:0px;
   }
 
-  
-  section {
-    padding:0px;
-    margin:0 0 0 0px;
-    overflow: hidden;
-  }
-  
-  .post{
-  display:none;
-  
-  }
-  .text{
-  display:none;
-  }
 }
 
 @media print {

@@ -126,9 +126,9 @@ max-width:700px;
   float: left;
 }
 
-.item.w2 { width:  700px; }
-.item.w3 { width:  774px; }
-.item.w4 { width:  500px; }
+.item.w2 { width:  80% }
+.item.w3 { width:  50% }
+.item.w4 { width:  90% }
 
 .item.h2 { height: 1353px; }
 .item.h3 { height: 1120px; }

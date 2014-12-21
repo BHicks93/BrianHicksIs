@@ -51,7 +51,7 @@ li, ul {
 
 .footercontent {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0px;
 }
 
@@ -105,7 +105,6 @@ li, ul {
 }
 
 .item:hover {
-  cursor: zoom-in;
 }
 /* end masonry styles */
 

@@ -57,12 +57,6 @@ li, ul {
 
 
 /* Masonry styles */
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .masonry {
   max-width: 100%;
 }

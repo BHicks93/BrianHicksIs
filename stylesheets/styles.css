@@ -43,7 +43,7 @@ li, ul {
     bottom: 0;
     height: 50px;
     background-color: white;
-    border-top: black solid 3px;
+    border-top: black solid 5px;
     position: fixed;
     left:0px;
     z-index: 1000;

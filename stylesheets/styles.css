@@ -82,21 +82,17 @@ li, ul {
 .item.w2 { width:  20%; }
 /* heights */
 .item.h2 { height: calc(20% 676.5px); }
-.item.h3 { height: calc(20% 560px;) }
-.item.h4 { height: calc(20% 525px;) }
-.item.h5 { height: calc(20% 695px;) }
-.item.h6 { height: calc(20% 540.5px;) }
-.item.h7 { height: calc(20% 534.5px;) } /*FallingMan*/
-.item.h8 { height: calc(20% 197px;) } /*WeBuySouls*/
-.item.h9 { height: calc(20% 267.5px;) } /*cheap*/
-.item.h10 { height: calc(20% 504px;) } /*blur*/
-.item.h11 { height: calc(20% 217.5px;) } /*Nike*/
-.item.h12 { height: calc(20% 439px;) } /*Waste*/
-.item.h13 { height: calc(20% 350px;) } /*Synergy*/
-
-.item.gigante {
-  width: 700px;
-}
+.item.h3 { height: calc(20% 560px); }
+.item.h4 { height: calc(20% 525px); }
+.item.h5 { height: calc(20% 695px); }
+.item.h6 { height: calc(20% 540.5px); }
+.item.h7 { height: calc(20% 534.5px); } /*FallingMan*/
+.item.h8 { height: calc(20% 197px); } /*WeBuySouls*/
+.item.h9 { height: calc(20% 267.5px); } /*cheap*/
+.item.h10 { height: calc(20% 504px); } /*blur*/
+.item.h11 { height: calc(20% 217.5px); } /*Nike*/
+.item.h12 { height: calc(20% 439px); } /*Waste*/
+.item.h13 { height: calc(20% 350px); } /*Synergy*/
 
 .item:hover {
 }

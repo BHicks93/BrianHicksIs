@@ -17,7 +17,10 @@
 				<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 				<link rel="stylesheet" href="stylesheets/styles.css">
 		<title>Brian Hicks</title>	
-				
+				<script type="text/javascript" src="javascripts/jquery-2.1.1.min.js"></script>
+				<script src="javascripts/masonry.min.js"></script>
+				<script src="javascripts/classie.js"></script>
+				<script src="javascripts/script.js"></script>
 <script>
 
 </script>
@@ -27,23 +30,23 @@
 		<div id="container">
 			<div id="content">
 				<div id="main">
-					<div class="masonry js-masonry"  data-masonry-options='{ "columnWidth": 350, "gutter": 5 }'>
-					<div class="item w2 h2"><a href=""><img src="images/posters/Slaves.jpg"> </a></div>
-					<div class="item w2 h11"><a href=""><img src="images/typography/Nike_Book.jpg"> </a></div>
-					<div class="item w2 h7"><a href=""><img src="images/posters/FallingMan.jpg"> </a></div>
-					<div class="item w2 h13"><a href=""><img src="images/typography/Calvino8.jpg"> </a></div>
-					<div class="item w2 h13"><a href=""><img src="images/typography/synergy.jpg"> </a></div>
-					<div class="item w2 h12"><a href=""><img src="images/typography/Waste.jpg"> </a></div>
-					<div class="item w2 h10"><a href=""><img src="images/posters/blurynoise.jpg"> </a></div>
-					<div class="item w2 h8"><a href=""><img src="images/posters/WeBuySouls.jpg"> </a></div>
-    				<div class="item w2 h3"><a href=""><img src="images/posters/Olympics.jpg" alt="picture"></a></div>
-    				<div class="item w2 h10"><a href=""><img src="images/identity/rio.jpg" alt="picture"></a></div>    				
-    				<div class="item w2 h4"><a href=""><img src="images/posters/Poster.jpg" alt="picture"></a></div>
-   					<div class="item w2 h5"><a href=""><img src="images/posters/Zang_Poster.jpg" alt="picture"></a></div>
-    				<div class="item w2 h6"><a href=""><img src="images/posters/poster-112.jpg" alt="picture"></a></div>
-    				<div class="item w2 h9"><a href=""><img src="images/posters/cheap.jpg" alt="picture"></a></div>
-    		
-    				<div class="item w2 h4"><a href=""><img src="images/posters/light_and_color.jpg" alt="picture"></a></div>
+					<div class="masonry js-masonry"  data-masonry-options='{ ".grid-sizer", "itemSelector": ".item" }'>
+					<div class="grid-sizer"></div>
+					<div class="item h2"><img src="images/posters/Slaves.jpg"> </div>
+					<div class="item h11"><img src="images/typography/Nike_Book.jpg"> </div>
+					<div class="item h7"><img src="images/posters/FallingMan.jpg"></div>
+					<div class="item h13"><img src="images/typography/Calvino8.jpg"></div>
+					<div class="item h13"><img src="images/typography/synergy.jpg"></div>
+					<div class="item h12"><img src="images/typography/Waste.jpg"></div>
+					<div class="item h10"><img src="images/posters/blurynoise.jpg"></div>
+					<div class="item h8"><img src="images/posters/WeBuySouls.jpg"></div>
+    				<div class="item h3"><img src="images/posters/Olympics.jpg" alt="picture"></div>
+    				<div class="item h10"><img src="images/identity/rio.jpg" alt="picture"></div>    				
+    				<div class="item h4"><img src="images/posters/Poster.jpg" alt="picture"></div>
+   					<div class="item h5"><img src="images/posters/Zang_Poster.jpg" alt="picture"></div>
+    				<div class="item h6"><img src="images/posters/poster-112.jpg" alt="picture"></div>
+    				<div class="item h9"><img src="images/posters/cheap.jpg" alt="picture"></div>
+    				<div class="item h4"><img src="images/posters/light_and_color.jpg" alt="picture"></div>
     				</div>
 				</div>
 			</div>
@@ -68,10 +71,7 @@
 </div>
 </footer>
 
-				<script src="javascripts/script.js"></script>
-				<script src="//code.jquery.com/jquery-latest.min.js"></script>
-				<script type="text/javascript" src="javascripts/jquery-2.1.1.min.js"></script>
-				<script src="javascripts/masonry.min.js"></script>
+
 
 </body>	
 </html>

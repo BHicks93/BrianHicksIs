@@ -78,7 +78,19 @@ img {
 
 /* end masonry styles */
 
-.caption{color:#000;
+.caption{
+		color:rgba(0,0,0,0);
+		position:absolute; 
+		top: 0px;
+		left: 0px;
+		height: 99.5%;
+		width: 100%;
+		z-index: 999; 
+		background-color:rgba(0,0,0,0);
+		}
+		
+.caption:hover{
+		color:#000;
 		position:absolute; 
 		top: 0px;
 		left: 0px;

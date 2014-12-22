@@ -1,15 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
 
 body {
   padding:0px;
   background: #5500D4;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size:14px
   color:#777;
 }
 
 p {
- font-family: 'Montserrat', sans-serif;
+ font-family: 'Roboto', sans-serif;
  font-size: 13px;
  float:left;
  max-width:300px;}

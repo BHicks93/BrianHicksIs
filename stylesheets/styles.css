@@ -1,18 +1,25 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
 body {
   padding:0px;
   background: #5500D4;
   font-family: 'Roboto', sans-serif;
-  font-size:14px
-  color:#777;
+  font-weight: 100;
+  font-size:14px;
 }
 
 p {
  font-family: 'Roboto', sans-serif;
- font-size: 13px;
+ font-weight: 400;
+ font-size: 24px;
  float:left;
- max-width:300px;}
+ max-width:300px;
+ position:absolute;
+ top:0px;
+ left: 10px;
+ height:100%;
+ width:100%;
+ text-align:left;}
 
 a {
   color:#D3D3D3;
@@ -31,6 +38,7 @@ img {
     bottom: 0;
     width: 205px;
     height: 50px;
+    font-weight: 100;
     background-color: white;
     border: black solid 5px;
     z-index: 1000;
@@ -69,8 +77,17 @@ img {
 
 /* end masonry styles */
 
-.caption{position:absolute; top: 10px; padding:5px; z-index: 999; background-color:rgba(255,255,255, 0.3);}
-
+.caption{
+		position:absolute; 
+		top: 0px;
+		left: 0px;
+		height: 99.5%;
+		width: 100%;
+		z-index: 999; 
+		background-color:rgba(255,255,255, 0.3);
+		}
+		
+		
 @media print, screen and (max-width: 740px) {
 
 }

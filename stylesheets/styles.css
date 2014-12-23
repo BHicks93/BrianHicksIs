@@ -44,13 +44,14 @@ img {
 
 /* Masonry styles */
 .masonry {
-  margin-left: 5%;
-  width:90%;
+  margin-left: 58px;
+  width:100%;
   top:50px;
 }
 .masonry .item,
 .masonry .grid-sizer {
-  width:  24%;
+  width:  25%;
+  height: 25%;
   float: left;
   margin-bottom:15px;
 }
@@ -82,17 +83,17 @@ img {
 		background-color:rgba(0,0,0,0);
 		}
 
-.caption p {margin:-5px;}
+.caption p {margin:10px;}
 
 .caption:hover{
-		color:rgba(0,0,0,1);
+		color:rgba(255,255,255,1);
 		position:absolute; 
-		top: 0px;
-		left: 0px;
-		height: 99.5%;
-		width: 100%;
+		top: 20px;
+		left: 20px;
+		height: 90%;
+		width: 90%;
 		z-index: 999; 
-		background-color:rgba(255,255,255, 1);
+		background-color:rgba(0,0,0, 1);
 		}
 
 .smallscreenmessage{display: none;}

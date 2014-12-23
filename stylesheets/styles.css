@@ -56,18 +56,18 @@ img {
 }
 
 /* heights */
-.item.h2 { height: calc(24% 676.5px); }
-.item.h3 { height: calc(24% 560px); }
-.item.h4 { height: calc(24% 525px); }
-.item.h5 { height: calc(24% 695px); }
-.item.h6 { height: calc(24% 540.5px); }
-.item.h7 { height: calc(24% 534.5px); } /*FallingMan*/
-.item.h8 { height: calc(24% 197px); } /*WeBuySouls*/
-.item.h9 { height: calc(24% 267.5px); } /*cheap*/
-.item.h10 { height: calc(24% 504px); } /*blur*/
-.item.h11 { height: calc(24% 217.5px); } /*Nike*/
-.item.h12 { height: calc(24% 439px); } /*Waste*/
-.item.h13 { height: calc(24% 350px); } /*Synergy*/
+.item.h2 { height: 676.5px; }
+.item.h3 { height: 560px; }
+.item.h4 { height: 525px; }
+.item.h5 { height: 695px; }
+.item.h6 { height: 540.5px; }
+.item.h7 { height: 534.5px; } /*FallingMan*/
+.item.h8 { height: 197px; } /*WeBuySouls*/
+.item.h9 { height: 267.5px; } /*cheap*/
+.item.h10 { height: 504px; } /*blur*/
+.item.h11 { height: 217.5px; } /*Nike*/
+.item.h12 { height: 439px; } /*Waste*/
+.item.h13 { height: 350px; } /*Synergy*/
 
 /* end masonry styles */
 

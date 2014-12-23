@@ -2,10 +2,10 @@
 
 body {
   padding:0px;
-  background: #5500D4;
+  background: #FFF; /*5500D4*/
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size:14px;
+  font-weight: 400;
+  font-size:20px;
 }
 
 p {
@@ -21,27 +21,36 @@ p {
  height:100%;
  width:100%;
  text-align:left;}
-
 a {
-  color:#D3D3D3;
-  text-decoration:none;
-  letter-spacing: 1px;}
-a:hover {
-  color:black;}
+  color: black;
+  text-decoration: none;
+}
+
+#footer a {
+  -webkit-transition: 0.3s opacity cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -moz-transition: 0.3s opacity cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -ms-transition: 0.3s opacity cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  -o-transition: 0.3s opacity cubic-bezier(0.250, 0.460, 0.450, 0.940);
+  transition: 0.3s opacity cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+#footer a:hover{
+  opacity: 0;
+}
 
 img {
   max-width:100%;
 }
 
+
 #footer {
     position: fixed;
-    left:0px;
-    bottom: 0;
-    width: 205px;
-    height: 50px;
-    font-weight: 100;
-    background-color: white;
-    border: black solid 5px;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    font-weight: 400;
+    background-color: transparent;
     z-index: 1000;
 }
 
@@ -49,11 +58,19 @@ img {
     width: 100%;
     margin: 15px;
 }
+#footer:hover #menu {
+    display: block;
+}
+#menu{
+   display: none;
+}
 
 
 /* Masonry styles */
 .masonry {
-  max-width: 100%;
+  margin-left: 5%;
+  width:90%;
+  top:50px;
 }
 .masonry .item,
 .masonry .grid-sizer {
@@ -88,22 +105,22 @@ img {
 		z-index: 999; 
 		background-color:rgba(0,0,0,0);
 		}
-		
+
+.caption p {margin:-5px;}
+
 .caption:hover{
-		color:#000;
+		color:rgba(0,0,0,1);
 		position:absolute; 
 		top: 0px;
 		left: 0px;
 		height: 99.5%;
 		width: 100%;
 		z-index: 999; 
-		background-color:rgba(255,255,255, 0.5);
+		background-color:rgba(255,255,255, 1);
 		}
 		
 		
-@media print, screen and (max-width: 740px) {
-
-}
+@media print, screen and (max-width: 740px) {}
 
 
 @media print {

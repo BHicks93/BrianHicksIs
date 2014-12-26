@@ -1,40 +1,13 @@
-<!doctype html> 
-<html lang="en">
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en" class="no-js">
-
-<head>
-				<meta charset="utf-8">
-    			<meta http-equiv="X-UA-Compatible" content="chrome=1">
-				<meta name="description" content="graphic design student at the rhode island school of design. from lowell, ma. currently living and working in providence.">
-				<meta name="author" content="brian.gd">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-				<link rel="stylesheet" href="stylesheets/styles.css">
-				<script src="javascripts/script.js"></script>
-				<script src="//code.jquery.com/jquery-latest.min.js"></script>
-				<script src="javascripts/masonry.min.js"></script>
-				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
-		<title>Brian Hicks</title>	
-
-
-<script type="text/javascript">
-// <![CDATA[
-var width=20; // width of the eyes in pixels
-var colour="#000"; // colour of the eye - bluey green in this case
-var iris="#FFF"; //   colour of the iris (normally black);
-
 /***************************\
+* This code is based off of *
 *   Moving Eyeballs Effect  *
 *(c)2012-3 mf2fm web-design *
 *  http://www.mf2fm.com/rv  *
-* DON'T EDIT BELOW THIS BOX *
 \***************************/
+
+var width=20; // width of the eyes in pixels
+var colour="#000"; // colour of the eye - bluey green in this case
+var iris="#FFF"; //   colour of the iris (normally black);
 var swide=800;
 var shigh=600;
 var sleft=sdown=0;
@@ -184,9 +157,3 @@ function set_width() {
   swide=sw_min;
   shigh=sh_min;
 }
-// ]]>
-</script>
-</head>
-<body class="">
-</body>
-</html>

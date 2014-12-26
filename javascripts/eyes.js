@@ -31,7 +31,7 @@ function draw_eyes() {
   i=glasses.style;
   i.position="fixed";
   i.top="50px";
-  i.left="50px";
+  i.left="170px";
   i.width="1px";
   i.height="1px";
   i.overflow="visible";
@@ -93,7 +93,7 @@ function mouse(e) {
   x-=sleft;
   y-=sdown;
 
-  xdiff=x+(1.1*width)-(50);
+  xdiff=x+(1.1*width)-(170);
   ydiff=y-50;
   distn=Math.pow(xdiff*xdiff+ydiff*ydiff,0.5);
   if (distn>width/1.4) {
@@ -103,7 +103,7 @@ function mouse(e) {
   lefteye.style.top=ydiff+"px";
   lefteye.style.left=xdiff+"px";
 
-  xdiff=x-(1.1*width)-(50);
+  xdiff=x-(1.1*width)-(170);
   ydiff=y-50;
   distn=Math.pow(xdiff*xdiff+ydiff*ydiff,0.5);
   if (distn>width/1.4) {

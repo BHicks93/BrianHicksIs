@@ -42,7 +42,7 @@ img {
 }
 
 
-/* Masonry styles */
+/* Masonry styles
 .masonry {
   margin-left: 58px;
   width:100%;
@@ -56,19 +56,19 @@ img {
   margin-bottom:15px;
 }
 
-/* heights */
+/* heights 
 .item.h2 { height: 676.5px; }
 .item.h3 { height: 560px; }
 .item.h4 { height: 525px; }
 .item.h5 { height: 695px; }
 .item.h6 { height: 540.5px; }
 .item.h7 { height: 534.5px; } /*FallingMan*/
-.item.h8 { height: 197px; } /*WeBuySouls*/
-.item.h9 { height: 267.5px; } /*cheap*/
-.item.h10 { height: 504px; } /*blur*/
-.item.h11 { height: 217.5px; } /*Nike*/
-.item.h12 { height: 439px; } /*Waste*/
-.item.h13 { height: 350px; } /*Synergy*/
+/*.item.h8 { height: 197px; } /*WeBuySouls*/
+/*.item.h9 { height: 267.5px; } /*cheap*/
+/*.item.h10 { height: 504px; } /*blur*/
+/*.item.h11 { height: 217.5px; } /*Nike*/
+/*.item.h12 { height: 439px; } /*Waste*/
+/*.item.h13 { height: 350px; } /*Synergy*/
 
 /* end masonry styles */
 
@@ -120,6 +120,7 @@ img {
 #menu{
    display: none;
 }
+
 
 @media print, screen and (max-width: 740px) {
   .masonry {display: none;}
